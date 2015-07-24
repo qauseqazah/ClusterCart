@@ -2,10 +2,10 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h1><%: WHAT IS CLUSTER CART %>.</h1>
+    <h1>< WHAT IS CLUSTER CART >.</h1>
     
-    <h2>Online Shopping in Pakista.....<h2>
-    <p>
+    <h2>Online Shopping in Pakistan.....<h2>
+    <p class ="lead">
     <b>ClusterCart</b> is your number one marketplace for online shopping in Pakistan. On clustercart.pk, 
 we offer a wide variety of products such as clothing, shoes, jewellery, watches, tablets, 
 cameras, perfumes, t-shirts, power banks and much more.
