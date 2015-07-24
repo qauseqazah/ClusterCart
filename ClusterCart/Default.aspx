@@ -17,6 +17,4 @@ Cash on Delivery..
 With our convenient cash on delivery services countrywide, online 
 shopping in Pakistan has never been easier before. 
     </p>
-    
-    <>Wingtip Toys can help you find the perfect gift.</> h2h2 < p="lead">We're all about transportation toys. You can order class any of our toys today. Each toy listing has detailed information to help you choose the right toy.</>
 </asp:Content>
