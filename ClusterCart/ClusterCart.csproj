@@ -152,6 +152,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="AddToCart.aspx" />
+    <Content Include="Admin\AdminPage.aspx" />
     <Content Include="App_Data\ClusterCart.mdf" />
     <Content Include="App_Data\ClusterCart_log.ldf">
       <DependentUpon>ClusterCart.mdf</DependentUpon>
@@ -491,12 +492,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\logo.png" />
+    <Content Include="Logic\AddProducts.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <Content Include="Checkout\Web.config" />
+    <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
@@ -535,7 +538,9 @@
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -589,6 +594,13 @@
     </Compile>
     <Compile Include="AddToCart.aspx.designer.cs">
       <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -652,6 +664,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logic\AddProducts.aspx.cs">
+      <DependentUpon>AddProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic\AddProducts.aspx.designer.cs">
+      <DependentUpon>AddProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\RoleAction.cs" />
     <Compile Include="Logic\ShoppingCartAction.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />

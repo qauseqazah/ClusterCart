@@ -9,6 +9,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
+using ClusterCart.Logic;
 
 
 namespace ClusterCart
@@ -26,6 +27,9 @@ namespace ClusterCart
 
             // Add Routes.
             RegisterCustomRoutes(RouteTable.Routes);
+
+            RoleAction roleActions = new RoleAction();
+            roleActions.createAdmin();
         }
         void RegisterCustomRoutes(RouteCollection routes)
         {
