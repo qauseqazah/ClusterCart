@@ -33,7 +33,10 @@ namespace ClusterCart.Account
                 if (user != null)
                 {
                     IdentityHelper.SignIn(manager, user, RememberMe.Checked);
-                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    //IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    ClusterCart.Logic.ShoppingCartActions usersShoppingCart =new ClusterCart.Logic.ShoppingCartActions();
+                    string cartId = usersShoppingCart.GetCartId();
+                    usersShoppingCart.MigrateCart(cartId, UserName.Text);
                 }
                 else
                 {

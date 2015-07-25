@@ -6,6 +6,9 @@ using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Linq;
+using ClusterCart.Models;
+using ClusterCart.Logic;
 
 namespace ClusterCart
 {
@@ -65,10 +68,24 @@ namespace ClusterCart
                 }
             }
         }
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
+        }
 
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        public IQueryable<Category> GetCategories()
+        {
+            var _db = new ClusterCart.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)

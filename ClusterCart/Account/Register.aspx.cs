@@ -19,7 +19,10 @@ namespace ClusterCart.Account
             if (result.Succeeded)
             {
                 IdentityHelper.SignIn(manager, user, isPersistent: false);
-                IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                //IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                ClusterCart.Logic.ShoppingCartActions usersShoppingCart = new ClusterCart.Logic.ShoppingCartActions();
+                string cartId = usersShoppingCart.GetCartId();
+                usersShoppingCart.MigrateCart(cartId, UserName.Text);
             }
             else 
             {

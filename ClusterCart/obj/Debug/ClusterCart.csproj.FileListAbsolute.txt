@@ -49,9 +49,6 @@ c:\users\sidrah\documents\visual studio 2013\Projects\ClusterCart\ClusterCart\bi
 c:\users\sidrah\documents\visual studio 2013\Projects\ClusterCart\ClusterCart\obj\Debug\ClusterCart.csprojResolveAssemblyReference.cache
 c:\users\sidrah\documents\visual studio 2013\Projects\ClusterCart\ClusterCart\obj\Debug\ClusterCart.dll
 c:\users\sidrah\documents\visual studio 2013\Projects\ClusterCart\ClusterCart\obj\Debug\ClusterCart.pdb
-D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.csprojResolveAssemblyReference.cache
-D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.dll
-D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.pdb
 D:\ClusterCart\ClusterCart\bin\ClusterCart.dll.config
 D:\ClusterCart\ClusterCart\bin\ClusterCart.dll
 D:\ClusterCart\ClusterCart\bin\ClusterCart.pdb
@@ -100,3 +97,6 @@ D:\ClusterCart\ClusterCart\bin\Microsoft.Owin.Security.Google.xml
 D:\ClusterCart\ClusterCart\bin\Microsoft.Owin.Security.Twitter.xml
 D:\ClusterCart\ClusterCart\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\ClusterCart\ClusterCart\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.dll
+D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.pdb
+D:\ClusterCart\ClusterCart\obj\Debug\ClusterCart.csprojResolveAssemblyReference.cache

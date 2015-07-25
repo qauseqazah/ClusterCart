@@ -151,17 +151,355 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="AddToCart.aspx" />
+    <Content Include="App_Data\ClusterCart.mdf" />
+    <Content Include="App_Data\ClusterCart_log.ldf">
+      <DependentUpon>ClusterCart.mdf</DependentUpon>
+    </Content>
+    <Content Include="Catalog\Images\100-degreez-1949-219661-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ajmal-4575-258511-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ajmal-5533-5755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ajmal-5536-6755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ajmal-5541-8755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\alphatronix-6057-2500833-1-zoom.jpg" />
+    <Content Include="Catalog\Images\anex-4513-4272753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\anex-4593-2572753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\anex-4606-8572753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\annabelles-3744-399041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\apple-2104-813251-1-zoom.jpg" />
+    <Content Include="Catalog\Images\apple-3433-7537953-1-zoom.jpg" />
+    <Content Include="Catalog\Images\arj-5693-0072281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\arj-9233-4962281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\aybeez-3200-276221-1-zoom.jpg" />
+    <Content Include="Catalog\Images\aybeez-7607-172801-1-zoom.jpg" />
+    <Content Include="Catalog\Images\bear-necessities-1463-337281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\bear-necessities-2812-347281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\bear-necessities-2819-447281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-5299-524478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-5316-334478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-5336-434478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-5369-534478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-6755-373041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-6870-063041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-8598-673041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-8745-152901-1-zoom.jpg" />
+    <Content Include="Catalog\Images\blossom-9430-691261-1-zoom.jpg" />
+    <Content Include="Catalog\Images\calvin-klein-0288-65769-1-zoom.jpg" />
+    <Content Include="Catalog\Images\canon-3640-146851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\canon-4105-066851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\canon-4293-886851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\canon-6161-946851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\canon-9562-416851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\carrera-4097-00988-1-zoom.jpg" />
+    <Content Include="Catalog\Images\chairman-0512-7037042-1-zoom.jpg" />
+    <Content Include="Catalog\Images\claire-s-1472-0182791-1-zoom.jpg" />
+    <Content Include="Catalog\Images\claire-s-1538-1192791-1-zoom.jpg" />
+    <Content Include="Catalog\Images\cocoon-5884-9740173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\cocoon-5891-2840173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\coventry-4981-420741-1-zoom.jpg" />
+    <Content Include="Catalog\Images\coventry-5017-820741-1-zoom.jpg" />
+    <Content Include="Catalog\Images\crabtree-and-evelyn-7673-13643-1-zoom.jpg" />
+    <Content Include="Catalog\Images\dany-2636-9421763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\davidoff-9318-39139-2-zoom.jpg" />
+    <Content Include="Catalog\Images\ego-5186-8758123-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ego-5197-0858123-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ego-5203-0679653-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ego-5216-1679653-1-zoom.jpg" />
+    <Content Include="Catalog\Images\fuji-film-8507-427561-1-zoom.jpg" />
+    <Content Include="Catalog\Images\guess-2596-42706-1-zoom.jpg" />
+    <Content Include="Catalog\Images\guess-3459-77651-1-zoom.jpg" />
+    <Content Include="Catalog\Images\guess-3677-27651-1-zoom.jpg" />
+    <Content Include="Catalog\Images\guess-9476-98139-2-zoom.jpg" />
+    <Content Include="Catalog\Images\hanson-leather-7696-171971-1-zoom.jpg" />
+    <Content Include="Catalog\Images\head-8573-88306-1-zoom.jpg" />
+    <Content Include="Catalog\Images\hkt-9396-2731763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\homage-0817-9093753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\house-of-leather-6753-398961-1-zoom.jpg" />
+    <Content Include="Catalog\Images\huawei-2721-3922281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\infinix-0755-3596463-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ingenious-gadgets-0120-8950173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\innjoo-5324-0194563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\jump-4515-72745-1-zoom.jpg" />
+    <Content Include="Catalog\Images\jump-4522-52745-1-zoom.jpg" />
+    <Content Include="Catalog\Images\jump-4691-58645-1-zoom.jpg" />
+    <Content Include="Catalog\Images\jump-8055-97645-1-zoom.jpg" />
+    <Content Include="Catalog\Images\junaid-jamshed-3809-635731-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\junaid-jamshed-3809-635731-1-zoom.jpg" />
+    <Content Include="Catalog\Images\k-b-cutlery-1278-2496163-1-zoom.jpg" />
+    <Content Include="Catalog\Images\karachi-wearhouse-5112-311221-1-zoom.jpg" />
+    <Content Include="Catalog\Images\karachi-wearhouse-9877-719161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\kenwood-6515-1193753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\kenwood-6527-3393753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\living-basics-3167-574051-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\living-basics-3167-574051-1-zoom.jpg" />
+    <Content Include="Catalog\Images\living-basics-8992-784051-2-zoom.jpg" />
+    <Content Include="Catalog\Images\malizia-2255-16206-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nikon-0856-7413001-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nikon-4757-419161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nikon-8645-069161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nimra-k-5382-2151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nimra-k-5394-3151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nimra-k-5470-9151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nimra-k-5498-1251541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\nimra-k-5564-6251541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\noor-fashionz-9567-7317443-1-zoom.jpg" />
+    <Content Include="Catalog\Images\one-hundred-ten-0957-718931-1-zoom.jpg" />
+    <Content Include="Catalog\Images\one-hundred-ten-4152-748771-1-zoom.jpg" />
+    <Content Include="Catalog\Images\orient-2849-912451-1-zoom.jpg" />
+    <Content Include="Catalog\Images\promate-0897-7041763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\promate-3755-8571073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\promate-7716-7231763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\qmobile-8344-6313281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-2792-42707-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-6125-710161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-6129-020161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-6139-720161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-6190-360161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-6250-701161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\ray-ban-9129-5389-1-zoom.jpg" />
+    <Content Include="Catalog\Images\rob-hayes-0865-05783-1-zoom.jpg" />
+    <Content Include="Catalog\Images\rob-hayes-1512-07467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\rob-hayes-1520-17467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\rob-hayes-1538-57467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-2861-5352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-2869-6352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-2898-8352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-4528-5652663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-7741-2452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-7775-6452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-7788-8452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-7811-1552663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\s-s-collection-7820-2552663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\samsung-0841-3670541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\samsung-4982-653551-1-zoom.jpg" />
+    <Content Include="Catalog\Images\samsung-7965-735321-1-zoom.jpg" />
+    <Content Include="Catalog\Images\samsung-8082-112521-1-zoom.jpg" />
+    <Content Include="Catalog\Images\seiko-0750-399271-1-zoom.jpg" />
+    <Content Include="Catalog\Images\seiko-0774-600371-1-zoom.jpg" />
+    <Content Include="Catalog\Images\seiko-0903-679271-1-zoom.jpg" />
+    <Content Include="Catalog\Images\shubinak-9044-23346-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sigma-4876-8945063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sinbo-8650-3234563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sinbo-8766-8534563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\skins-8926-10035-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sok-plastic-2073-0420391-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sony-0526-760261-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sony-0775-53126-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sony-1348-619511-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sony-3905-725851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sony-9812-525851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\swan-2371-502931-1-zoom.jpg" />
+    <Content Include="Catalog\Images\swatch-1538-69845-1-zoom.jpg" />
+    <Content Include="Catalog\Images\swatch-1739-98845-1-zoom.jpg" />
+    <Content Include="Catalog\Images\swatch-2914-73053-1-zoom.jpg" />
+    <Content Include="Catalog\Images\sweet-16-5805-078561-1-zoom.jpg" />
+    <Content Include="Catalog\Images\the-body-shop-6609-289061-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\100-degreez-1949-219661-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ajmal-4575-258511-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ajmal-5533-5755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ajmal-5536-6755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ajmal-5541-8755441-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\alphatronix-6057-2500833-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\anex-4513-4272753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\anex-4593-2572753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\anex-4606-8572753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\annabelles-3744-399041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\apple-2104-813251-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\apple-3433-7537953-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\arj-5693-0072281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\arj-9233-4962281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\aybeez-3200-276221-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\aybeez-7607-172801-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\bear-necessities-1463-337281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\bear-necessities-2812-347281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\bear-necessities-2819-447281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-5299-524478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-5316-334478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-5336-434478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-5369-534478-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-6755-373041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-6870-063041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-8598-673041-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-8745-152901-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\blossom-9430-691261-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\calvin-klein-0288-65769-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\canon-3640-146851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\canon-4105-066851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\canon-4293-886851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\canon-6161-946851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\canon-9562-416851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\carrera-4097-00988-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\chairman-0512-7037042-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\claire-s-1472-0182791-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\claire-s-1538-1192791-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\cocoon-5884-9740173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\cocoon-5891-2840173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\coventry-4981-420741-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\coventry-5017-820741-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\crabtree-and-evelyn-7673-13643-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\dany-2636-9421763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\davidoff-9318-39139-2-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ego-5186-8758123-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ego-5197-0858123-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ego-5203-0679653-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ego-5216-1679653-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\fuji-film-8507-427561-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\guess-2596-42706-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\guess-3459-77651-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\guess-3677-27651-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\guess-9476-98139-2-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\hanson-leather-7696-171971-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\head-8573-88306-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\hkt-9396-2731763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\homage-0817-9093753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\house-of-leather-6753-398961-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\huawei-2721-3922281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\infinix-0755-3596463-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ingenious-gadgets-0120-8950173-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\innjoo-5324-0194563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\jump-4515-72745-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\jump-4522-52745-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\jump-4691-58645-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\jump-8055-97645-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\junaid-jamshed-3809-635731-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\Thumbs\junaid-jamshed-3809-635731-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\k-b-cutlery-1278-2496163-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\karachi-wearhouse-5112-311221-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\karachi-wearhouse-9877-719161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\kenwood-6515-1193753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\kenwood-6527-3393753-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\living-basics-3167-574051-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\Thumbs\living-basics-3167-574051-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\living-basics-8992-784051-2-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\malizia-2255-16206-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nikon-0856-7413001-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nikon-4757-419161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nikon-8645-069161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nimra-k-5382-2151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nimra-k-5394-3151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nimra-k-5470-9151541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nimra-k-5498-1251541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\nimra-k-5564-6251541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\noor-fashionz-9567-7317443-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\one-hundred-ten-0957-718931-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\one-hundred-ten-4152-748771-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\orient-2849-912451-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\promate-0897-7041763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\promate-3755-8571073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\promate-7716-7231763-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\qmobile-8344-6313281-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-2792-42707-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-6125-710161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-6129-020161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-6139-720161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-6190-360161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-6250-701161-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\ray-ban-9129-5389-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\rob-hayes-0865-05783-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\rob-hayes-1512-07467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\rob-hayes-1520-17467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\rob-hayes-1538-57467-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-2861-5352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-2869-6352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-2898-8352663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-4528-5652663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-7741-2452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-7775-6452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-7788-8452663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-7811-1552663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\s-s-collection-7820-2552663-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\samsung-0841-3670541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\samsung-4982-653551-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\samsung-7965-735321-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\samsung-8082-112521-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\seiko-0750-399271-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\seiko-0774-600371-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\seiko-0903-679271-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\shubinak-9044-23346-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sigma-4876-8945063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sinbo-8650-3234563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sinbo-8766-8534563-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\skins-8926-10035-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sok-plastic-2073-0420391-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sony-0526-760261-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sony-0775-53126-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sony-1348-619511-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sony-3905-725851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sony-9812-525851-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\swan-2371-502931-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\swatch-1538-69845-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\swatch-1739-98845-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\swatch-2914-73053-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\sweet-16-5805-078561-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\the-body-shop-6609-289061-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2774-1515063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2782-9515063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2788-1615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2808-7615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2812-8615063-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\Thumbs\timex-2812-8615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\tissot-6568-29611-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\tna-collections-0099-083771-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\todd-davis-1155-771541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\torch-5947-683701-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\touchmate-1125-028471-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\travel_blue-1905-2010331-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\trendy-homes-4066-5848802-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\vogue-2115-21991-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\vogue-7010-59891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\vogue-7983-44991-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\vogue-8087-89891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\vogue-8522-88891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\westar-1090-172071-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\westpoint-0446-9491073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\westpoint-5726-2202073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\westpoint-5818-1402073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\Thumbs\westpoint-5825-3402073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\timex-2774-1515063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\timex-2782-9515063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\timex-2788-1615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\timex-2808-7615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\timex-2812-8615063-1-zoom %281%29.jpg" />
+    <Content Include="Catalog\Images\timex-2812-8615063-1-zoom.jpg" />
+    <Content Include="Catalog\Images\tissot-6568-29611-1-zoom.jpg" />
+    <Content Include="Catalog\Images\tna-collections-0099-083771-1-zoom.jpg" />
+    <Content Include="Catalog\Images\todd-davis-1155-771541-1-zoom.jpg" />
+    <Content Include="Catalog\Images\torch-5947-683701-1-zoom.jpg" />
+    <Content Include="Catalog\Images\touchmate-1125-028471-1-zoom.jpg" />
+    <Content Include="Catalog\Images\travel_blue-1905-2010331-1-zoom.jpg" />
+    <Content Include="Catalog\Images\trendy-homes-4066-5848802-1-zoom.jpg" />
+    <Content Include="Catalog\Images\vogue-2115-21991-1-zoom.jpg" />
+    <Content Include="Catalog\Images\vogue-7010-59891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\vogue-7983-44991-1-zoom.jpg" />
+    <Content Include="Catalog\Images\vogue-8087-89891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\vogue-8522-88891-1-zoom.jpg" />
+    <Content Include="Catalog\Images\westar-1090-172071-1-zoom.jpg" />
+    <Content Include="Catalog\Images\westpoint-0446-9491073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\westpoint-5726-2202073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\westpoint-5818-1402073-1-zoom.jpg" />
+    <Content Include="Catalog\Images\westpoint-5825-3402073-1-zoom.jpg" />
+    <Content Include="Checkout\CheckoutCancel.aspx" />
+    <Content Include="Checkout\CheckoutComplete.aspx" />
+    <Content Include="Checkout\CheckoutError.aspx" />
+    <Content Include="Checkout\CheckoutReview.aspx" />
+    <Content Include="Checkout\CheckoutStart.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-original.css" />
+    <Content Include="Content\bootstrap-original.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\logo.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="Checkout\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -194,6 +532,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -244,6 +583,13 @@
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -254,6 +600,41 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Checkout\CheckoutCancel.aspx.cs">
+      <DependentUpon>CheckoutCancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CheckoutCancel.aspx.designer.cs">
+      <DependentUpon>CheckoutCancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\CheckoutComplete.aspx.cs">
+      <DependentUpon>CheckoutComplete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CheckoutComplete.aspx.designer.cs">
+      <DependentUpon>CheckoutComplete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\CheckoutError.aspx.cs">
+      <DependentUpon>CheckoutError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CheckoutError.aspx.designer.cs">
+      <DependentUpon>CheckoutError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\CheckoutReview.aspx.cs">
+      <DependentUpon>CheckoutReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CheckoutReview.aspx.designer.cs">
+      <DependentUpon>CheckoutReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout\CheckoutStart.aspx.cs">
+      <DependentUpon>CheckoutStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout\CheckoutStart.aspx.designer.cs">
+      <DependentUpon>CheckoutStart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -271,12 +652,37 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logic\ShoppingCartAction.cs" />
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -300,9 +706,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
